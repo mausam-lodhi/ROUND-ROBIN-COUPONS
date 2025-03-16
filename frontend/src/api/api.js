@@ -1,7 +1,7 @@
 import axios from "axios";
 import { toast } from "react-toastify";
 
-const API_URL = "http://localhost:5000/api";
+const API_URL = "https://round-robin-coupon-kt83.onrender.com/api";
 
 // Create axios instance with defaults
 const api = axios.create({
